@@ -1,0 +1,275 @@
+* {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    border: 0;
+}
+
+/* header and bg-image styles */
+header {
+    background-image: url(/images/banner/banner3.png);
+    height: 808px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.header {
+    text-align: right;
+    color: #FFFFFF;
+}
+
+.banner {
+    padding: 215px 180px 24px 850px;
+
+}
+
+.banner-title {
+    font-weight: 800;
+    font-size: 65px;
+    line-height: 76px;
+    color: #FFFFFF;
+    margin-bottom: 24px;
+}
+
+.banner-description {
+    margin-bottom: 32px;
+    text-align: right;
+}
+
+.primary-btn {
+    color: #005FAC;
+    font-weight: 600;
+    padding: 20px 30px;
+    font-size: 20px;
+    border-radius: 5px;
+    border: 0px;
+}
+
+/* failures content styles */
+.failures-img {
+    background-image: url(../images/person.png);
+    width: 569px;
+    height: 723.3px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+/* failures title and text styles */
+.failures {
+    display: flex;
+    margin: 125px 320px 0px 200px;
+    width: 1140px;
+    gap: 50px;
+    text-align: left;
+    height: 725px;
+    align-items: center;    
+}
+
+.failures-text {
+    text-align: left;
+}
+
+.failures-title {
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 47px;
+    width: 288px;
+    color: #151414;
+    margin-bottom: 25px;
+}
+
+.failures-title-description {
+    font-size: 16px;
+    line-height: 26px;
+    width: 416px;
+    color: #444343;
+    margin-bottom: 15px;
+}
+
+.failures-description {
+    display: flex;
+    color: #444343;
+    margin-bottom: 7px;
+}
+
+/* check symbol styles */
+.check-symbol {
+    color: #16D887;
+    font-size: 18px;
+    font-weight: 500;
+    padding-right: 10px;
+}
+
+/* My resume & experiance styles */
+.resume {
+    margin-top: 140px;
+    text-align: center;
+    width: 1140px;
+    border: 5px solid blue;
+    margin: 100px auto;
+    padding-top: 20px;
+}
+
+.resume .section-title {
+    margin-top: 50px;
+    margin-bottom: 60px;
+    font-weight: 800;
+    font-size: 40px;
+    text-align: center;
+    color: #9507c0;
+}
+
+.resume-content {
+    display: flex;
+    gap: 40px;
+
+}
+
+.resume-item {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.resume .title {
+    font-weight: 700;
+    font-size: 25px;
+    color: #474747;
+    margin-bottom: 10px;
+}
+
+.resume-title {
+    font-weight: 700;
+    font-size: 30px;
+    color: #474747;
+}
+
+.resume .sub-title {
+    color: #757575;
+    font-weight: 600;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.resume .description {
+    color: #757575;
+}
+
+/* my plan section styles */
+.my-plan {
+    font-weight: 800;
+    font-size: 40px;
+    margin-top: 90px;
+    margin-bottom: 50px;
+    text-align: center;
+    color: #151414;
+}
+
+/* plan detials styles */
+.plan {
+    display: flex;
+    justify-content: space-around;
+    margin: auto 230px 130px;
+    width: 1140px;
+
+}
+
+.plan-details {
+    text-align: center;
+}
+
+.plan-title {
+    margin: 24px 0px 16px;
+    font-weight: 800;
+    font-size: 30px;
+}
+
+.plan-description {
+    color: #737272;
+    font-weight: 500;
+    font-size: 25px;
+}
+
+/* motivation-title & button styles */
+.motivation-sec {
+    background-repeat: no-repeat;
+    justify-content: center;
+    background-size: cover;
+    background: linear-gradient(to right, rgb(42, 21, 136, 1), rgba(46, 34, 3, 0.2)), url(../images/watch.png);
+    width: 1140px;
+    height: 300px;
+    margin: auto 230px 130px;
+    border-radius: 8px;
+
+}
+
+.motivation-title {
+    font-weight: 700;
+    font-size: 40px;
+    color: #FFFFFF;
+    margin-bottom: 24px;
+}
+
+.motivation-content {
+    padding: 59px 615px 60px 65px;
+}
+
+/* Future section and form with button  styles */
+.future {
+    display: flex;
+    gap: 300px;
+    padding: 130px 230px;
+    background: #000;
+    color: #FFFFFF;
+    height: 550px;
+}
+
+.section-title {
+    font-weight: 700;
+    font-size: 45px;
+    margin-bottom: 16px;
+}
+
+.section-title2 {
+    margin-bottom: 32px;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 29px;
+}
+
+.section-description {
+    font-size: 16px;
+    line-height: 26px;
+}
+
+.info {
+    margin-bottom: 24px;
+    margin-top: 24px;
+}
+
+.future a {
+    padding-right: 20px;
+    text-decoration: none;
+}
+
+input {
+    height: 60px;
+    border-radius: 6px;
+    color: #FFFFFF;
+    font-size: 15px;
+}
+
+.future input[type="email"] {
+    margin-bottom: 16px;
+    padding-left: 10px;
+    padding-right: 100px;
+    border: 1px solid white;
+    width: 100%;
+    background-color: #000;
+    font-weight: 600;
+
+}
+
+.future input[type="button"] {
+    padding: 17px 33px;
+    margin-top: 06px;
+    background-color: #005FAC;
+}
