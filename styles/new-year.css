@@ -5,14 +5,12 @@
 }
 
 /* header and bg-image styles */
-header {
+
+.header {
     background-image: url(/images/banner/banner3.png);
     height: 808px;
     background-size: cover;
     background-repeat: no-repeat;
-}
-
-.header {
     text-align: right;
     color: #FFFFFF;
 }
